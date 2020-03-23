@@ -1,2 +1,2 @@
 # Utilities
-Utilities function for further use
+Useful functions for further use
