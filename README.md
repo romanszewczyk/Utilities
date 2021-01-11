@@ -7,4 +7,4 @@ draw_nice_plots.m - an example of nice plot formatting
 
 TextDataLoad.m - load data from text file, skip initial lines, change "," to "."
 
-
+NonLinFilt.m - nonlinear filtering using standard deviation
