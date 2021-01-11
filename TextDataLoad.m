@@ -1,9 +1,8 @@
 function Tabl=TextDataLoad(filename,n_start,verbouse);
-
 %
 % MIT License
 %
-% Copyright (c) 2020 Roman Szewczyk
+% Copyright (c) 2021 Roman Szewczyk
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
