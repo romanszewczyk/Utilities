@@ -45,13 +45,7 @@ if min(size(x1))~=1
   exit
 end
 
-
-x1_mean=mean(x1);
-
-SStot = sum((x1-x1_mean).^2);
-
-SSres = sum((x1-x2).^2);
-
-R2 = 1-SSres./SStot;
+R2_ = corrcoef(x1,x2);
+R2 = R2_(1,2).^2;
 
 end 
