@@ -24,6 +24,7 @@ function res = ArcDeg(x,y)
 %
 %
 % DESCRIPTION:
+%
 % function calculates the angle of (x,y) vector
 % res - output in deg
 %
