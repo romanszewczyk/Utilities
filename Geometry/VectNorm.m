@@ -26,6 +26,7 @@ function vr = VectNorm(v)
 % Function normalizes vector v
 %
 % v - input vector (3,1)
+% vr - output versor (3,1)
 %
 
 if numel(v)==3
