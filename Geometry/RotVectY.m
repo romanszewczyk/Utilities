@@ -27,7 +27,6 @@ function vr = RotVectY(v, fi_d)
 % consistient version
 %
 % v - input vector (3,1)
-% vers - versor for rotation (around) (3,1)
 % fi - rotation angle (1)  - in degrees
 %
 % https://en.wikipedia.org/wiki/Rotation_matrix#Rotation_matrix_from_axis_and_angle
