@@ -23,6 +23,8 @@ function vr = RotVectVers(v, vers, fi_d)
 % SOFTWARE.
 %
 %
+% DESCRIPTION:
+%
 % Function rotates vector v around versor vers by angle fi
 % consistient version
 %
