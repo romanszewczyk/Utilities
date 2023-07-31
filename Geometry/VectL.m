@@ -22,6 +22,7 @@ function res = VectL(x,y,z)
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
 %
+% DESCRIPTION:
 %
 % Function calculates the length of vector (x,y) or (x,y,z)
 %
