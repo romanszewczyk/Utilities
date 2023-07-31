@@ -23,6 +23,8 @@ function res = ArcRad(x,y)
 % SOFTWARE.
 %
 %
+% DESCRIPTION:
+%
 % Function calculates the angle of (x,y) vector
 % res - output in rad
 %
