@@ -23,7 +23,9 @@ function vr = RotVectY(v, fi_d)
 % SOFTWARE.
 %
 %
-% Function rotates vector v around versor vers by angle fi
+% DESCRIPTION:
+%
+% Function rotates vector v around Y by angle fi
 % consistient version
 %
 % v - input vector (3,1)
