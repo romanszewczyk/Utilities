@@ -23,8 +23,9 @@ function vr = RotVectZ(v, fi_d)
 % SOFTWARE.
 %
 %
-% Function rotates vector v around versor vers by angle fi
-% consistient version
+% DESCRIPTION:
+%
+% Function rotates vector v around Z by angle fi
 %
 % v - input vector (3,1)
 % fi - rotation angle (1)  - in degrees
