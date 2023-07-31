@@ -26,7 +26,7 @@ function vr = VectNorm(v)
 % DESCRIPTION:
 % Function normalizes vector v
 %
-% v - input vector (3,1)
+% v  - input vector (3,1)
 % vr - output versor (3,1)
 %
 
