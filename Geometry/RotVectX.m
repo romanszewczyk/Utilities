@@ -22,8 +22,10 @@ function vr = RotVectX(v, fi_d)
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
 %
-% function rotates vector v around versor vers by angle fi
-% consistient version
+%
+% DESCRIPTION:
+%
+% Function rotates vector v around X by angle fi
 %
 % v - input vector (3,1)
 % fi - rotation angle (1)  - in degrees
