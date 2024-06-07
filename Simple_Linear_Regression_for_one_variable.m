@@ -68,7 +68,12 @@ t_student = [12.706	4.303	3.182	2.776	2.571	2.447	2.365	2.306	2.262	2.228	...
              2.080	2.074	2.069	2.064	2.060	2.056	2.052	2.048	2.045	2.042	...
              2.021	2.009	2.000	1.990	1.984	1.980]';
 
-t = interp1(n_student,t_student,n,'spline');
+% consider t-Student distribution if n<60
+if n<60
+  t = interp1(n_student,t_student,n,'spline');
+else
+  t = 2;
+end
 
 fprintf('Result function for the 95%% confidence interval:\n(%1.5f +/- %1.5f) + (%1.5f +/- %1.5f)*x \n', ...
          a,t.*sqrt(sa2),b,t.*sqrt(sb2));
