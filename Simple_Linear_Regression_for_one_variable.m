@@ -21,7 +21,7 @@
 % SOFTWARE.
 %
 %
-% Simple Linear Regression for one variableaccording to:
+% Simple Linear Regression for one variable according to:
 % https://en.wikipedia.org/wiki/Simple_linear_regression
 %
 
