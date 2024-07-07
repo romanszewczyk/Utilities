@@ -36,5 +36,6 @@ xticks(-4:1:4);
 yticks(0:0.1:0.6);
 xlabel('{\it x}');
 ylabel('{\it p(x)   for \sigma=1, \mu=0}');
+% yticklabels({'0' '20 000' '40 000' '60 000' '80 000' '100 000'})  % use if necessary
 grid;
 
